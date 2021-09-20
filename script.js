@@ -8,7 +8,7 @@ function button() {
   document.body.appendChild(button); //combine button with text
   let id = 0;
 elem = document.createElement("hr"); //unnecessary line under the button
-elem.setAttribute("width", "1400px"); //making it longer
+elem.setAttribute("width", "1440px"); //making it longer
 document.body.appendChild(elem);
   button.addEventListener("click", buttonClick); //activate button for clicking
   function buttonClick() {
