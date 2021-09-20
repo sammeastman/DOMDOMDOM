@@ -2,7 +2,7 @@ document.addEventListener("DOMContentLoaded", button);
 
 function button() {
   let button = document.createElement("button");
-  let btnText = document.createTextNode("Square please!");
+  let btnText = document.createTextNode("Add Square!");
   button.className = "button"; //make button
   button.appendChild(btnText); //make it say what it does
   document.body.appendChild(button); //combine button with text
@@ -15,7 +15,7 @@ function button() {
     id++; //increase ID by one each time it is clicked, will also affect the number in the box
     let square = document.createElement("div"); //creating the squares out of a div
     square.id = id; //allowing it to be called
-    square.className = "the-square"; //naming it also for CSS
+    square.className = "the-square"; //naming it, also for CSS
     let p = document.createElement("p"); //creating text for modification
     let squareText = document.createTextNode(id); //telling box to display whichever number it matches
     p.appendChild(squareText); //putting that text in the box
