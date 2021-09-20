@@ -1,0 +1,60 @@
+body {
+    background-color: cadetblue;
+}
+
+  
+.button {
+    width: 300px;
+    height: 50px;
+    display: block;
+    border-radius: 75px;
+    background-color: rgb(122, 9, 122);
+    font-style: italic;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: bolder;
+    font-size: large;
+    margin-left: 30.4em;
+    font-size: larger;
+    cursor:grab;
+    
+}
+
+.the-square {
+    background-color: rgb(146, 101, 146);
+    margin: 1.5em;
+    display: inline-block;
+    padding: 3em;
+    border: 1px solid black;
+    
+}
+
+p {
+    color: rgb(192, 178, 178);
+    font-size: 4em;
+    text-align: center;
+    margin: 0;
+    width: 1em;
+    height: 1em;
+font-weight: bolder;
+    
+}
+
+div {
+    cursor: crosshair;
+}
+
+div:hover {
+    border-radius: 200px;
+}
+
+hr {
+position: relative;
+margin-top: 2em;
+align-content: center;
+
+}
+
+.button:hover {
+    color: rgb(247, 245, 224);
+  box-shadow: 0 5px 15px rgba(145, 92, 182, .4);
+}
